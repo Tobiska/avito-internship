@@ -7,6 +7,11 @@ import (
 
 type Config struct {
 	App
+	Database
+}
+
+type Database struct {
+	Dsn string `env:"POSTGRES_DSN"`
 }
 
 type App struct {

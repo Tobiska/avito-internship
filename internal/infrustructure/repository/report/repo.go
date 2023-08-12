@@ -1,4 +1,4 @@
-package billing
+package report
 
 import "github.com/Tobiska/avito-internship/internal/infrustructure/repository"
 
